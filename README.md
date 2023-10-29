@@ -25,9 +25,9 @@ Isso iniciará a API, que estará disponível em http://localhost:5000.
 
 git clone [https://github.com/EstudanteWS/PokeTimes.git](https://github.com/EstudanteWS/Projeto-triagil.git)
 
-cd PokeTimes
+cd Projeto-triagil
 
-Inicie a aplicação localmente utilizando o docker:
+#### Inicie a aplicação localmente utilizando o docker:
 
 docker build -t pokemon-python . (para criar imagem do dockerfile)
 
