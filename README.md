@@ -179,11 +179,13 @@ Descrição: Crie uma nova equipe com base em uma lista de Pokémons e um nome d
 
 Exemplo de Requisição:
 
-POST http://localhost:5000/api/teams '{
+POST http://localhost:5000/api/teams 
+```json
+'{
   "user": "sleao",
   "team": ["blastoise", "pikachu", "charizard", "venusaur", "lapras", "charizard"]
 }' 
-
+```
 Exemplo de Resposta caso seja inserida informações invalidas:
 
 {
