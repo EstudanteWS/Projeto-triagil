@@ -10,7 +10,7 @@ Caso você não tenha o Docker instalado, siga as instruções em Docker Install
 
 git clone [https://github.com/EstudanteWS/PokeTimes.git](https://github.com/EstudanteWS/Projeto-triagil.git)
 
-cd PokeTimes
+cd Projeto-triagil
 
 Dentro do diretório do projeto, execute o seguinte comando para iniciar a aplicação com Docker Compose:
 
