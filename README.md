@@ -50,7 +50,7 @@ Exemplo de Requisição:
 GET http://localhost:5000/api/teams
 
 Exemplo de Resposta:
-
+```json
 [
 	{
 		"owner": "sleao",
@@ -117,7 +117,7 @@ Exemplo de Resposta:
 		]
 	}
 ]
-
+```
 #### Buscar Equipe por ID (GET /api/teams/{id})
 Descrição: Retorna uma equipe registrada com base em sua ID única.
 
