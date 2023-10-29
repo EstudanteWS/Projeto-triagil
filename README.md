@@ -9,6 +9,7 @@ Caso você não tenha o Docker instalado, siga as instruções em Docker Install
 1. Clone o repositório do projeto:
 
 git clone [https://github.com/EstudanteWS/PokeTimes.git](https://github.com/EstudanteWS/Projeto-triagil.git)
+
 cd PokeTimes
 
 Dentro do diretório do projeto, execute o seguinte comando para iniciar a aplicação com Docker Compose:
@@ -22,7 +23,8 @@ Isso iniciará a API, que estará disponível em http://localhost:5000.
 
 2. Clone o repositório do projeto:
 
-git clone https://github.com/EstudanteWS/PokeTimes.git
+git clone [https://github.com/EstudanteWS/PokeTimes.git](https://github.com/EstudanteWS/Projeto-triagil.git)
+
 cd PokeTimes
 
 Inicie a aplicação localmente utilizando o docker:
