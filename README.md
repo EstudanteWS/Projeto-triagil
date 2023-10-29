@@ -53,8 +53,8 @@ Exemplo de Resposta:
 ```json
 [
 	{
-		"owner": "sleao",
-		"pokemons": [
+		                "owner": "sleao",
+		                "pokemons": [
 			{
 				"height": 16,
 				"id": 9,
@@ -94,8 +94,8 @@ Exemplo de Resposta:
 		]
 	},
 	{
-		"owner": "maka",
-		"pokemons": [
+		                "owner": "maka",
+		                "pokemons": [
 			{
 				"height": 16,
 				"id": 9,
@@ -126,10 +126,10 @@ Exemplo de Requisição:
 GET http://localhost:5000/api/teams/1
 
 Exemplo de Resposta em caso id esteja correto:
-
+```json
 {
-	"owner": "sleao",
-	"pokemons": [
+	                "owner": "sleao",
+	                "pokemons": [
 		{
 			"height": 16,
 			"id": 9,
@@ -168,7 +168,7 @@ Exemplo de Resposta em caso id esteja correto:
 		}
 	]
 }
-
+```
 Caso Id seja inserido incorretamente: 
 {
 	"error": "Equipe nao encontrada, pesquise por outro id valido"
