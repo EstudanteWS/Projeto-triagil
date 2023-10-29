@@ -170,10 +170,11 @@ Exemplo de Resposta em caso id esteja correto:
 }
 ```
 Caso Id seja inserido incorretamente: 
+```json
 {
 	"error": "Equipe nao encontrada, pesquise por outro id valido"
 	}
-
+```
 #### Criar Equipe (POST /api/teams)
 Descrição: Crie uma nova equipe com base em uma lista de Pokémons e um nome de usuário.
 
@@ -187,27 +188,27 @@ POST http://localhost:5000/api/teams
 }
 ```
 Exemplo de Resposta caso seja inserida informações invalidas:
-
+```json
 {
 	"error": "Erro ao inserir informações, por favor insira informações validas"
 	}
-
+```
 Exemplo de resposta caso usuario ja esteja em outro time:
-
+```json
 {
 	"error": f"O usuario {user} já existe para a equipe {team_id}"
 	}
-
+```
 Exemplo de resposta caso os dados do pokemon seja inserido de forma invalido:
-
+```json
 {
 	"error": f"Pokemon {pokemon_name} Inexistente"
 	}
-
+```
 Exemplo de Resposta caso seja inserido usuario e id pela primeira vez:
-
+```json
 {
 	"message": "Equipe criada com sucesso. Use a ID 1 para pesquisar."
 }
-
+```
 Esta API foi criada para o desafio de infraestrutura da Triágil.
